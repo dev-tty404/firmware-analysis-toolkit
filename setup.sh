@@ -26,7 +26,7 @@ cd ..
 
 echo "Installing firmadyne"
 # tested with firmadyne commit bcd8bc0
-git clone --recursive https://github.com/firmadyne/firmadyne.git
+git clone --recursive https://github.com/dev-tty404/firmadyne.git
 cd firmadyne
 ./download.sh
 firmadyne_dir=$(realpath .)
